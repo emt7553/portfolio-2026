@@ -16,7 +16,8 @@ import {
   Monitor,
   Menu,
   X,
-  Award
+  Award,
+  Smartphone
 } from 'lucide-react';
 
 const Navigation = ({ activeSection, scrollToSection }) => {
@@ -510,7 +511,7 @@ export default function App() {
                 href="tel:724-624-3801"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-lg border border-slate-700 transition-all"
               >
-                <Monitor size={20} /> 724-624-3801
+                <Smartphone size={20} /> 724-624-3801
               </a>
             </div>
 
