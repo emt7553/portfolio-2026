@@ -96,7 +96,7 @@ const Hero = ({ scrollToSection }) => {
         <div className="inline-block px-3 py-1 mb-6 text-xs font-mono font-medium text-blue-300 bg-blue-900/30 rounded-full border border-blue-800">
           Seeking Spring 2026 (and beyond) Co-ops/Internships
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+        <h1 className="text-7xl md:text-9xl font-bold mb-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
           Alex Tefft
         </h1>
 
