@@ -15,7 +15,8 @@ import {
   Layers,
   Monitor,
   Menu,
-  X
+  X,
+  Award
 } from 'lucide-react';
 
 const Navigation = ({ activeSection, scrollToSection }) => {
@@ -112,7 +113,7 @@ const Hero = ({ scrollToSection }) => {
             View Projects <ChevronDown size={18} />
           </button>
           <a 
-            href="/Tefft_Alex_Resume_2025-4.pdf" 
+            href="/Tefft_Alex_Resume_2026.pdf" 
             download
             className="px-8 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-lg border border-slate-700 transition-all flex items-center gap-2"
           >
@@ -385,11 +386,18 @@ export default function App() {
                 role="Bachelor of Computer Science"
                 company="Rochester Institute of Technology"
                 location="Rochester, NY"
-                duration="Aug 2022 - Present"
+                duration="Aug 2022 - Spring 2027 (Expected)"
                 description="Developing strong foundations in data structures, algorithms, and systems programming, with a focus on low-level computing and graphics."
               >
                 <div className="space-y-6">
                   
+                  {/* Awards / Honors */}
+                  <div className="flex items-center gap-2">
+                     <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-yellow-500/10 text-yellow-200 border border-yellow-500/20 shadow-sm">
+                        <Award size={12} className="text-yellow-400" /> 2025 Dean's List
+                     </span>
+                  </div>
+
                   {/* Core & Systems */}
                   <div>
                     <h4 className="text-sm font-bold text-slate-200 uppercase tracking-wider mb-3 border-b border-slate-700 pb-2">
